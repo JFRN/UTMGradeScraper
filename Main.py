@@ -3,7 +3,7 @@ import time
 start_time = time.time()
 
 
-SCRAPER = GradeScraper('enrollment', 'password')
+SCRAPER = GradeScraper('enrollment', 'pwd')
 
 print(SCRAPER.averages_as_string('201740', True))
 print(SCRAPER.subjects_details_as_string('201740'))
