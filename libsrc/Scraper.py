@@ -264,7 +264,7 @@ class GradeScraper:
                 string_list.append("{0}\t{1}".format(data[0].capitalize().ljust(40), grade))
         return string_list
 
-    def subjects_details_as_string(self, term):
+    def subject_details_as_string(self, term):
         """Returns the averages of all the subjects found on term as a fully formatted string"""
         string = ""
         for line in self.get_subject_details_as_string_list(term):
@@ -272,3 +272,8 @@ class GradeScraper:
         #page = self.get_available_terms_site(self.currentcookies)
         #print(self.get_available_terms(page))
         return string
+    def print_subject_full_detail(self, term):
+        print("-" * 90)
+        print(self.averages_as_string(term, True))
+        print(self.subject_details_as_string(term))
+        print("-" * 90)
