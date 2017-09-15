@@ -1,0 +1,37 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BeautifulSoup	../libsrc\Scraper.py	/^from bs4 import BeautifulSoup$/;"	kind:namespace	line:10
+By	../libsrc\Scraper.py	/^from selenium.webdriver.common.by import By$/;"	kind:namespace	line:7
+EC	../libsrc\Scraper.py	/^from selenium.webdriver.support import expected_conditions as EC$/;"	kind:namespace	line:9
+GradeScraper	../Main.py	/^from libsrc.Scraper import GradeScraper$/;"	kind:namespace	line:1
+GradeScraper	../libsrc\Scraper.py	/^class GradeScraper:$/;"	kind:class	line:13
+Keys	../libsrc\Scraper.py	/^from selenium.webdriver.common.keys import Keys$/;"	kind:namespace	line:6
+Main.py	../Main.py	1;"	kind:file	line:1
+SCRAPER	../Main.py	/^SCRAPER = GradeScraper('2716544', 'RA165%ed')$/;"	kind:variable	line:6
+Scraper.py	../libsrc\Scraper.py	1;"	kind:file	line:1
+WebDriverWait	../libsrc\Scraper.py	/^from selenium.webdriver.support.ui import WebDriverWait$/;"	kind:namespace	line:8
+__init__	../libsrc\Scraper.py	/^    def __init__(self, username, password):$/;"	kind:member	line:16
+averages_as_string	../libsrc\Scraper.py	/^    def averages_as_string(self, term, detailed=False):$/;"	kind:member	line:242
+averages_as_string_list	../libsrc\Scraper.py	/^    def averages_as_string_list(self, term, detailed=False):$/;"	kind:member	line:211
+get_available_terms	../libsrc\Scraper.py	/^    def get_available_terms(self, terms_page):$/;"	kind:member	line:112
+get_available_terms_site	../libsrc\Scraper.py	/^    def get_available_terms_site(self, cookies):$/;"	kind:member	line:58
+get_grades	../libsrc\Scraper.py	/^    def get_grades(self, grades_page):$/;"	kind:member	line:122
+get_grades_site	../libsrc\Scraper.py	/^    def get_grades_site(self, cookies, term):$/;"	kind:member	line:64
+get_student_info	../libsrc\Scraper.py	/^    def get_student_info(self, grades_page):$/;"	kind:member	line:138
+get_subject_detail	../libsrc\Scraper.py	/^    def get_subject_detail(self, grades_page):$/;"	kind:member	line:162
+get_subject_details_as_string_list	../libsrc\Scraper.py	/^    def get_subject_details_as_string_list(self, term):$/;"	kind:member	line:250
+get_subject_grade_detail	../libsrc\Scraper.py	/^    def get_subject_grade_detail(self, subject_grade_page):$/;"	kind:member	line:195
+get_subject_page	../libsrc\Scraper.py	/^    def get_subject_page(self, cookies, url):$/;"	kind:member	line:73
+get_utm_url	../libsrc\Scraper.py	/^    def get_utm_url(self):$/;"	kind:member	line:44
+json	../libsrc\Scraper.py	/^import json$/;"	kind:namespace	line:4
+login_and_get_cookies	../libsrc\Scraper.py	/^    def login_and_get_cookies(self):$/;"	kind:member	line:79
+requests	../libsrc\Scraper.py	/^import requests$/;"	kind:namespace	line:11
+start_time	../Main.py	/^start_time = time.time()$/;"	kind:variable	line:3
+subjects_details_as_string	../libsrc\Scraper.py	/^    def subjects_details_as_string(self, term):$/;"	kind:member	line:267
+sys	../libsrc\Scraper.py	/^import sys$/;"	kind:namespace	line:3
+time	../Main.py	/^import time$/;"	kind:namespace	line:2
+webdriver	../libsrc\Scraper.py	/^from selenium import webdriver$/;"	kind:namespace	line:5
